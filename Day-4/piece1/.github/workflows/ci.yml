@@ -2,82 +2,78 @@ name: CI
 
 on:
   push:
+    branches:
+      - "**"
+
   pull_request:
     branches:
       - main
 
 jobs:
-  ci:
+  build-test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup .NET 10
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '10.0.x'
+          dotnet-version: "10.0.x"
 
-      - name: Restore packages
+      - name: Restore
         run: dotnet restore QuotesApi.Tests.Integration/QuotesApi.Tests.Integration.csproj
 
-      - name: Build project
+      - name: Build
         run: dotnet build QuotesApi.Tests.Integration/QuotesApi.Tests.Integration.csproj --no-restore
 
-      - name: Run tests with coverage
+      - name: Test with coverage
+        run: >
+          dotnet test
+          QuotesApi.Tests.Integration/QuotesApi.Tests.Integration.csproj
+          --no-build
+          --logger "trx;LogFileName=test-results.trx"
+          --collect:"XPlat Code Coverage"
+
+      - name: Check code coverage
+        shell: pwsh
         run: |
-          dotnet test QuotesApi.Tests.Integration/QuotesApi.Tests.Integration.csproj \
-            --no-build \
-            --logger "trx;LogFileName=test-results.trx" \
-            --collect:"XPlat Code Coverage"
+          $coverageFile = Get-ChildItem -Path . -Recurse -Filter coverage.cobertura.xml |
+            Sort-Object LastWriteTime -Descending |
+            Select-Object -First 1
 
-      - name: Check coverage is at least 70%
-        shell: python
-        run: |
-          import glob
-          import sys
-          import xml.etree.ElementTree as ET
+          if (-not $coverageFile) {
+            Write-Error "Coverage file was not found."
+            exit 1
+          }
 
-          files = glob.glob(
-              "**/TestResults/**/coverage.cobertura.xml",
-              recursive=True
-          )
+          [xml]$coverage = Get-Content $coverageFile.FullName
 
-          if not files:
-              print("Coverage report not found.")
-              sys.exit(1)
+          $lineRate = [double]$coverage.coverage.'line-rate'
+          $coveragePercent = $lineRate * 100
 
-          total_covered = 0
-          total_lines = 0
+          Write-Host "Line coverage: $([math]::Round($coveragePercent, 2))%"
 
-          for file in files:
-              root = ET.parse(file).getroot()
+          if ($coveragePercent -lt 70) {
+            Write-Error "Code coverage is below the required 70%."
+            exit 1
+          }
 
-              total_covered += int(root.attrib["lines-covered"])
-              total_lines += int(root.attrib["lines-valid"])
-
-          coverage = (
-              total_covered / total_lines * 100
-              if total_lines else 0
-          )
-
-          print(f"Code coverage: {coverage:.2f}%")
-
-          if coverage < 70:
-              print("Coverage is below 70%.")
-              sys.exit(1)
+          Write-Host "Code coverage requirement passed."
 
       - name: Upload test results
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: test-results
-          path: "**/TestResults/**/*.trx"
+          path: "**/TestResults/*.trx"
+          if-no-files-found: error
 
-      - name: Upload coverage report
+      - name: Upload coverage
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: coverage
+          name: code-coverage
           path: "**/TestResults/**/coverage.cobertura.xml"
+          if-no-files-found: error

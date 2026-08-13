@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\vishe\\Desktop\\thinkschool\\Day-3\\piece7\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj": {}
+    "C:\\Users\\vishe\\Desktop\\thinkschool\\Day-4\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj": {}
   },
   "projects": {
-    "c:\\Users\\vishe\\Desktop\\thinkschool\\Day-3\\piece7\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj": {
+    "C:\\Users\\vishe\\Desktop\\thinkschool\\Day-4\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\vishe\\Desktop\\thinkschool\\Day-3\\piece7\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
+        "projectUniqueName": "C:\\Users\\vishe\\Desktop\\thinkschool\\Day-4\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
         "projectName": "QuotesApi.Tests.Integration",
-        "projectPath": "c:\\Users\\vishe\\Desktop\\thinkschool\\Day-3\\piece7\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
+        "projectPath": "C:\\Users\\vishe\\Desktop\\thinkschool\\Day-4\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
         "packagesPath": "C:\\Users\\vishe\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\vishe\\Desktop\\thinkschool\\Day-3\\piece7\\QuotesApi.Tests.Integration\\obj\\",
+        "outputPath": "C:\\Users\\vishe\\Desktop\\thinkschool\\Day-4\\piece1\\QuotesApi.Tests.Integration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vishe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -27,8 +27,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "c:\\Users\\vishe\\Desktop\\thinkschool\\Day-3\\piece7\\QuotesApi\\QuotesApi.csproj": {
-                "projectPath": "c:\\Users\\vishe\\Desktop\\thinkschool\\Day-3\\piece7\\QuotesApi\\QuotesApi.csproj"
+              "C:\\Users\\vishe\\Desktop\\thinkschool\\Day-4\\piece1\\QuotesApi\\QuotesApi.csproj": {
+                "projectPath": "C:\\Users\\vishe\\Desktop\\thinkschool\\Day-4\\piece1\\QuotesApi\\QuotesApi.csproj"
               }
             }
           }
@@ -75,6 +75,8 @@
               "version": "[4.13.0, )"
             },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.4, )"
             },
@@ -381,14 +383,14 @@
         }
       }
     },
-    "c:\\Users\\vishe\\Desktop\\thinkschool\\Day-3\\piece7\\QuotesApi\\QuotesApi.csproj": {
+    "C:\\Users\\vishe\\Desktop\\thinkschool\\Day-4\\piece1\\QuotesApi\\QuotesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\vishe\\Desktop\\thinkschool\\Day-3\\piece7\\QuotesApi\\QuotesApi.csproj",
+        "projectUniqueName": "C:\\Users\\vishe\\Desktop\\thinkschool\\Day-4\\piece1\\QuotesApi\\QuotesApi.csproj",
         "projectName": "QuotesApi",
-        "projectPath": "c:\\Users\\vishe\\Desktop\\thinkschool\\Day-3\\piece7\\QuotesApi\\QuotesApi.csproj",
+        "projectPath": "C:\\Users\\vishe\\Desktop\\thinkschool\\Day-4\\piece1\\QuotesApi\\QuotesApi.csproj",
         "packagesPath": "C:\\Users\\vishe\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\vishe\\Desktop\\thinkschool\\Day-3\\piece7\\QuotesApi\\obj\\",
+        "outputPath": "C:\\Users\\vishe\\Desktop\\thinkschool\\Day-4\\piece1\\QuotesApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vishe\\AppData\\Roaming\\NuGet\\NuGet.Config"
