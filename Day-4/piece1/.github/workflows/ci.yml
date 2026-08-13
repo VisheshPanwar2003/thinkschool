@@ -1,0 +1,83 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Restore packages
+        run: dotnet restore QuotesApi.Tests.Integration/QuotesApi.Tests.Integration.csproj
+
+      - name: Build project
+        run: dotnet build QuotesApi.Tests.Integration/QuotesApi.Tests.Integration.csproj --no-restore
+
+      - name: Run tests with coverage
+        run: |
+          dotnet test QuotesApi.Tests.Integration/QuotesApi.Tests.Integration.csproj \
+            --no-build \
+            --logger "trx;LogFileName=test-results.trx" \
+            --collect:"XPlat Code Coverage"
+
+      - name: Check coverage is at least 70%
+        shell: python
+        run: |
+          import glob
+          import sys
+          import xml.etree.ElementTree as ET
+
+          files = glob.glob(
+              "**/TestResults/**/coverage.cobertura.xml",
+              recursive=True
+          )
+
+          if not files:
+              print("Coverage report not found.")
+              sys.exit(1)
+
+          total_covered = 0
+          total_lines = 0
+
+          for file in files:
+              root = ET.parse(file).getroot()
+
+              total_covered += int(root.attrib["lines-covered"])
+              total_lines += int(root.attrib["lines-valid"])
+
+          coverage = (
+              total_covered / total_lines * 100
+              if total_lines else 0
+          )
+
+          print(f"Code coverage: {coverage:.2f}%")
+
+          if coverage < 70:
+              print("Coverage is below 70%.")
+              sys.exit(1)
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: "**/TestResults/**/*.trx"
+
+      - name: Upload coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: "**/TestResults/**/coverage.cobertura.xml"
