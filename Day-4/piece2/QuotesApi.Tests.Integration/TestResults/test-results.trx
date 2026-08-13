@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="2c81de6f-ec38-4ad6-aaab-f79f5f548704" name="vishe@VISHESH 2026-08-13 12:11:21" runUser="VISHESH\vishe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-08-13T12:11:21.3310430+05:30" queuing="2026-08-13T12:11:21.3310432+05:30" start="2026-08-13T12:11:16.4369538+05:30" finish="2026-08-13T12:14:10.9560679+05:30" />
+  <TestSettings name="default" id="8a4c2da3-c813-4383-87e6-3ac9f599df66">
+    <Deployment runDeploymentRoot="vishe_VISHESH_2026-08-13_12_11_21" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="328fc67e-8cab-4199-a74e-31c16c417297" testId="a76fff7c-3b65-0190-d68d-ca4d4e292280" testName="QuotesApi.Tests.Integration.QuoteDomainTests.ChangeAuthor_WithWhitespaceAuthor_ReturnsFailure" computerName="VISHESH" duration="00:00:00.0006875" startTime="2026-08-13T12:11:21.2737060+05:30" endTime="2026-08-13T12:11:21.2738244+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="328fc67e-8cab-4199-a74e-31c16c417297" />
+    <UnitTestResult executionId="9dac51fa-f75d-4a2a-bce6-de5d1d01ba0a" testId="849a81bc-24ee-550a-421a-5647f9928d11" testName="QuotesApi.Tests.Integration.QuoteDeleteTests.DeleteQuote_WhenQuoteDoesNotExist_ReturnsNotFound" computerName="VISHESH" duration="00:00:00.0877835" startTime="2026-08-13T12:13:37.9338718+05:30" endTime="2026-08-13T12:13:51.9411716+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dac51fa-f75d-4a2a-bce6-de5d1d01ba0a" />
+    <UnitTestResult executionId="2ab8f13d-41c2-451d-a2ae-f2e009b7a761" testId="44b0cb0b-447a-f7b8-867e-7e4f9b060c1a" testName="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithWhitespaceText_ReturnsFailure" computerName="VISHESH" duration="00:00:00.0005285" startTime="2026-08-13T12:11:21.2780270+05:30" endTime="2026-08-13T12:11:21.2781762+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ab8f13d-41c2-451d-a2ae-f2e009b7a761" />
+    <UnitTestResult executionId="dfcf6cfd-0e92-4ae2-8d55-20c5847feff8" testId="d8976056-884e-a37e-d482-3ae153f8d308" testName="QuotesApi.Tests.Integration.QuoteReadTests.GetQuotes_WhenQuotesExist_ReturnsQuotes" computerName="VISHESH" duration="00:00:00.3120188" startTime="2026-08-13T12:13:32.8694635+05:30" endTime="2026-08-13T12:13:37.5549437+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfcf6cfd-0e92-4ae2-8d55-20c5847feff8" />
+    <UnitTestResult executionId="7f96647d-336d-4a66-8ab1-11c386b25b4e" testId="f1d51a38-d0ff-230c-a944-11bcdbe22eaf" testName="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithEmptyAuthor_ReturnsFailure" computerName="VISHESH" duration="00:00:00.0630290" startTime="2026-08-13T12:11:21.2168267+05:30" endTime="2026-08-13T12:11:21.2243512+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f96647d-336d-4a66-8ab1-11c386b25b4e" />
+    <UnitTestResult executionId="3e8f6cf6-a237-4d2f-80a5-8d32ba66a0e1" testId="c71a4ba6-8fd7-122a-afaf-f2d1f8b255c7" testName="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithTextOver1000Characters_ReturnsFailure" computerName="VISHESH" duration="00:00:00.0006144" startTime="2026-08-13T12:11:21.3046582+05:30" endTime="2026-08-13T12:11:21.3048237+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e8f6cf6-a237-4d2f-80a5-8d32ba66a0e1" />
+    <UnitTestResult executionId="247a27bd-8f82-49e7-ab59-7139507198d3" testId="842dd747-ea8e-a40b-56bd-597c1bade384" testName="QuotesApi.Tests.Integration.QuoteWriteTests.PostQuote_WithTextOver1000Characters_ReturnsBadRequest" computerName="VISHESH" duration="00:00:00.0598090" startTime="2026-08-13T12:13:51.0009554+05:30" endTime="2026-08-13T12:13:54.5280172+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="247a27bd-8f82-49e7-ab59-7139507198d3" />
+    <UnitTestResult executionId="d1848956-56de-4e89-b9ae-d0f98bda2fc6" testId="511fda1f-4d89-8152-5d17-ed5149055ffa" testName="QuotesApi.Tests.Integration.RefreshTokenTests.Refresh_WithReusedRefreshToken_ReturnsUnauthorized" computerName="VISHESH" duration="00:00:01.0662607" startTime="2026-08-13T12:13:37.5734636+05:30" endTime="2026-08-13T12:13:52.4595476+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1848956-56de-4e89-b9ae-d0f98bda2fc6" />
+    <UnitTestResult executionId="121e830d-7925-4b1f-b358-170de88c7f6b" testId="124f64d3-ca50-5dd3-a0af-38fab6762362" testName="QuotesApi.Tests.Integration.QuoteWriteTests.PostQuote_WithEmptyText_ReturnsBadRequest" computerName="VISHESH" duration="00:00:00.0363437" startTime="2026-08-13T12:13:59.6669741+05:30" endTime="2026-08-13T12:14:01.7674744+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="121e830d-7925-4b1f-b358-170de88c7f6b" />
+    <UnitTestResult executionId="5c3b59c5-15b8-49a4-a041-2378c5bd4606" testId="bb763136-2097-11ba-25c0-a857a9b15177" testName="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithWhitespaceAuthor_ReturnsFailure" computerName="VISHESH" duration="00:00:00.0004547" startTime="2026-08-13T12:11:21.2700910+05:30" endTime="2026-08-13T12:11:21.2702118+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c3b59c5-15b8-49a4-a041-2378c5bd4606" />
+    <UnitTestResult executionId="2cd48c5e-a735-472f-bf57-fb1531489273" testId="ef4bd6f8-a7d9-b681-abf3-6d06b38d7820" testName="QuotesApi.Tests.Integration.QuoteWriteTests.UpdateAuthor_WithEmptyAuthor_ReturnsBadRequest" computerName="VISHESH" duration="00:00:21.0244131" startTime="2026-08-13T12:13:06.9986389+05:30" endTime="2026-08-13T12:13:32.8574966+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cd48c5e-a735-472f-bf57-fb1531489273" />
+    <UnitTestResult executionId="05f0a407-e581-4f74-8a22-9a6877bf43b1" testId="45f42d1d-bd88-7d46-c4bf-c6311d39d2e3" testName="QuotesApi.Tests.Integration.RefreshTokenTests.Refresh_WithUnknownRefreshToken_ReturnsUnauthorized" computerName="VISHESH" duration="00:00:23.1312253" startTime="2026-08-13T12:13:04.5752939+05:30" endTime="2026-08-13T12:13:32.3044704+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05f0a407-e581-4f74-8a22-9a6877bf43b1" />
+    <UnitTestResult executionId="0a5dbe4f-4b8b-482b-8424-14c874064bb2" testId="b8dcba16-6981-751f-3a01-68e0e83dcbc5" testName="QuotesApi.Tests.Integration.QuoteDeleteTests.DeleteQuote_WhenUserIsNotOwner_ReturnsForbidden" computerName="VISHESH" duration="00:00:00.7488998" startTime="2026-08-13T12:13:32.8732261+05:30" endTime="2026-08-13T12:13:37.9316861+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a5dbe4f-4b8b-482b-8424-14c874064bb2" />
+    <UnitTestResult executionId="66d465f5-9ce4-4656-ae50-8118894983de" testId="6e16bad8-1967-e63b-a870-93fd7d5fbeeb" testName="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithAuthorOver200Characters_ReturnsFailure" computerName="VISHESH" duration="00:00:00.0006212" startTime="2026-08-13T12:11:21.2766002+05:30" endTime="2026-08-13T12:11:21.2767177+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66d465f5-9ce4-4656-ae50-8118894983de" />
+    <UnitTestResult executionId="6af8fae3-e35a-4391-82f1-75aa99438838" testId="1227f698-7d95-ee80-b530-ff979278b014" testName="QuotesApi.Tests.Integration.QuoteWriteTests.UpdateAuthor_WhenQuoteDoesNotExist_ReturnsNotFound" computerName="VISHESH" duration="00:00:00.0395951" startTime="2026-08-13T12:13:57.4323573+05:30" endTime="2026-08-13T12:13:59.6664207+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6af8fae3-e35a-4391-82f1-75aa99438838" />
+    <UnitTestResult executionId="78445e94-1f83-4970-9157-428f60f5b699" testId="e52be598-6545-b6d3-806f-a51ab9fdca94" testName="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithEmptyText_ReturnsFailure" computerName="VISHESH" duration="00:00:00.0012342" startTime="2026-08-13T12:11:21.2794914+05:30" endTime="2026-08-13T12:11:21.2796128+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78445e94-1f83-4970-9157-428f60f5b699" />
+    <UnitTestResult executionId="a8614759-bb59-4e7d-866a-b5b46b3769c0" testId="a4286b7a-731a-2a25-ecb4-da28b07e60be" testName="QuotesApi.Tests.Integration.QuoteDeleteTests.DeleteQuote_WithoutUserIdClaim_ReturnsForbidden" computerName="VISHESH" duration="00:00:23.7077446" startTime="2026-08-13T12:13:04.5751806+05:30" endTime="2026-08-13T12:13:32.8712199+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8614759-bb59-4e7d-866a-b5b46b3769c0" />
+    <UnitTestResult executionId="2bd8a12f-0594-4235-a082-1b596acaa608" testId="181277c3-dffb-81ab-7b3f-ae3a8a8bfc29" testName="QuotesApi.Tests.Integration.QuoteReadTests.GetQuotes_WhenCalled_ReturnsOkAndEmptyList" computerName="VISHESH" duration="00:00:00.0224369" startTime="2026-08-13T12:13:37.5569358+05:30" endTime="2026-08-13T12:13:51.4350679+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2bd8a12f-0594-4235-a082-1b596acaa608" />
+    <UnitTestResult executionId="c9646c96-02f6-4179-9ec9-54a1d8ceb6d2" testId="0f824763-b4df-678a-f128-6eef7b5d7461" testName="QuotesApi.Tests.Integration.QuoteWriteTests.UpdateAuthor_WhenQuoteExists_ReturnsNoContent" computerName="VISHESH" duration="00:00:00.0957939" startTime="2026-08-13T12:14:04.1057230+05:30" endTime="2026-08-13T12:14:06.5057084+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9646c96-02f6-4179-9ec9-54a1d8ceb6d2" />
+    <UnitTestResult executionId="27237922-b86a-407f-a54b-2a19e7638e52" testId="4b912c46-e5f3-2542-e154-9a6e7357fccc" testName="QuotesApi.Tests.Integration.QuoteDomainTests.ChangeAuthor_WithValidAuthor_ReturnsSuccess" computerName="VISHESH" duration="00:00:00.0015149" startTime="2026-08-13T12:11:21.3071770+05:30" endTime="2026-08-13T12:11:21.3074004+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27237922-b86a-407f-a54b-2a19e7638e52" />
+    <UnitTestResult executionId="df52e0ae-6a36-4b53-b066-ae9dc2f8dbe5" testId="8db0a31f-37f6-816d-8d19-186dff27279f" testName="QuotesApi.Tests.Integration.QuoteReadTests.GetQuoteById_WhenQuoteDoesNotExist_ReturnsNotFound" computerName="VISHESH" duration="00:00:00.0229047" startTime="2026-08-13T12:13:51.4371330+05:30" endTime="2026-08-13T12:13:55.1601269+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df52e0ae-6a36-4b53-b066-ae9dc2f8dbe5" />
+    <UnitTestResult executionId="bd50fc30-b025-4d72-a8d5-712f45c658fe" testId="a28dc243-8cbe-6860-5a84-5dc59ce3ab38" testName="QuotesApi.Tests.Integration.AuthenticationTests.Login_WithValidCredentials_ReturnsTokens" computerName="VISHESH" duration="00:00:23.7102204" startTime="2026-08-13T12:13:04.5745279+05:30" endTime="2026-08-13T12:13:32.8734864+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd50fc30-b025-4d72-a8d5-712f45c658fe" />
+    <UnitTestResult executionId="c650c31f-f556-4f43-b02a-aa890a955d7f" testId="14a84147-7347-6142-38a1-f127131030ab" testName="QuotesApi.Tests.Integration.QuoteDomainTests.ChangeAuthor_WithAuthorOver200Characters_ReturnsFailure" computerName="VISHESH" duration="00:00:00.0026712" startTime="2026-08-13T12:11:21.2721059+05:30" endTime="2026-08-13T12:11:21.2722522+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c650c31f-f556-4f43-b02a-aa890a955d7f" />
+    <UnitTestResult executionId="2a71e29a-9981-4d25-9cf7-d6feeba2e293" testId="b93e9971-1e68-2a74-2037-6e9478a9fad5" testName="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithValidData_ReturnsSuccess" computerName="VISHESH" duration="00:00:00.0138888" startTime="2026-08-13T12:11:21.2654402+05:30" endTime="2026-08-13T12:11:21.2657715+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a71e29a-9981-4d25-9cf7-d6feeba2e293" />
+    <UnitTestResult executionId="05588f9a-0b6d-4544-af9f-b745954a3391" testId="676f250c-70a1-1518-fc10-8f3f71c551cc" testName="QuotesApi.Tests.Integration.QuoteWriteTests.PostQuote_WithoutAuth_ReturnsUnauthorized" computerName="VISHESH" duration="00:00:00.0053645" startTime="2026-08-13T12:14:06.5065469+05:30" endTime="2026-08-13T12:14:08.3538904+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05588f9a-0b6d-4544-af9f-b745954a3391" />
+    <UnitTestResult executionId="f71a1d6e-cde9-491d-8e7a-f7f6bc27b9c8" testId="287d6ecd-4c37-0385-0424-bfd9e6462d0c" testName="QuotesApi.Tests.Integration.QuoteDomainTests.ChangeAuthor_WithEmptyAuthor_ReturnsFailure" computerName="VISHESH" duration="00:00:00.0007569" startTime="2026-08-13T12:11:21.2751711+05:30" endTime="2026-08-13T12:11:21.2752881+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f71a1d6e-cde9-491d-8e7a-f7f6bc27b9c8" />
+    <UnitTestResult executionId="efa41d6f-cc77-436c-a657-bc119aac0d60" testId="bdd72aef-d779-edd5-8cc7-c10deb771f67" testName="QuotesApi.Tests.Integration.QuoteReadTests.GetQuoteById_WhenQuoteExists_ReturnsOk" computerName="VISHESH" duration="00:00:23.6965767" startTime="2026-08-13T12:13:04.5750509+05:30" endTime="2026-08-13T12:13:32.8627341+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efa41d6f-cc77-436c-a657-bc119aac0d60" />
+    <UnitTestResult executionId="b71e2c24-3660-4aca-987e-1afc040d4871" testId="bab88c4a-d09e-0e75-351b-c75b735fbfc8" testName="QuotesApi.Tests.Integration.AuthenticationTests.Logout_WithoutAuthentication_ReturnsUnauthorized" computerName="VISHESH" duration="00:00:00.0361483" startTime="2026-08-13T12:13:37.6859141+05:30" endTime="2026-08-13T12:13:51.5509530+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b71e2c24-3660-4aca-987e-1afc040d4871" />
+    <UnitTestResult executionId="ac775196-9760-41cb-bff2-5399a1caf4e3" testId="c8bee1f7-f901-98e5-9006-5e897f03e38a" testName="QuotesApi.Tests.Integration.AuthenticationTests.Logout_WithValidRefreshToken_ReturnsNoContent" computerName="VISHESH" duration="00:00:00.6331987" startTime="2026-08-13T12:13:51.5523196+05:30" endTime="2026-08-13T12:13:55.7687881+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac775196-9760-41cb-bff2-5399a1caf4e3" />
+    <UnitTestResult executionId="9766f373-eccb-4433-aa69-8b3319c34c9a" testId="3aad1383-6cad-44a4-b288-444b5472ea15" testName="QuotesApi.Tests.Integration.QuoteWriteTests.PostQuote_WithEmptyAuthor_ReturnsBadRequest" computerName="VISHESH" duration="00:00:00.0366346" startTime="2026-08-13T12:13:54.5304961+05:30" endTime="2026-08-13T12:13:57.4272423+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9766f373-eccb-4433-aa69-8b3319c34c9a" />
+    <UnitTestResult executionId="15a9b871-7cf7-44b4-a182-2cc2fe918799" testId="ed90307f-7eb8-0249-ca38-6efb92198c3c" testName="QuotesApi.Tests.Integration.QuoteWriteTests.PostQuote_WithAuthorOver200Characters_ReturnsBadRequest" computerName="VISHESH" duration="00:00:00.0458519" startTime="2026-08-13T12:13:37.3123943+05:30" endTime="2026-08-13T12:13:50.9948872+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15a9b871-7cf7-44b4-a182-2cc2fe918799" />
+    <UnitTestResult executionId="121709f8-70e0-4bec-a4a9-9d5273a40e40" testId="23fc89a3-6de9-e209-3169-14ccd4b76265" testName="QuotesApi.Tests.Integration.QuoteDomainTests.ChangeAuthor_WhenQuoteIsDeleted_ReturnsFailure" computerName="VISHESH" duration="00:00:00.0007674" startTime="2026-08-13T12:11:21.3023820+05:30" endTime="2026-08-13T12:11:21.3025361+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="121709f8-70e0-4bec-a4a9-9d5273a40e40" />
+    <UnitTestResult executionId="5449d839-8931-4248-b438-6316d6e9d3f0" testId="e4c4c5ba-06d7-880a-e2f4-5b9dc761c2a5" testName="QuotesApi.Tests.Integration.AuthenticationTests.Login_WithInvalidPassword_ReturnsUnauthorized" computerName="VISHESH" duration="00:00:00.4697541" startTime="2026-08-13T12:13:32.8753694+05:30" endTime="2026-08-13T12:13:37.6840614+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5449d839-8931-4248-b438-6316d6e9d3f0" />
+    <UnitTestResult executionId="5d4bf0a0-7a80-4e5a-8327-28efc8c92907" testId="116ebff7-c7ee-c34c-b29c-8fbafc8f05b2" testName="QuotesApi.Tests.Integration.QuoteDeleteTests.DeleteQuote_WhenUserIsOwner_ReturnsNoContent" computerName="VISHESH" duration="00:00:00.2410775" startTime="2026-08-13T12:13:51.9428153+05:30" endTime="2026-08-13T12:13:55.3958016+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d4bf0a0-7a80-4e5a-8327-28efc8c92907" />
+    <UnitTestResult executionId="c4aff532-66ac-4c33-9cb8-17a7f1351036" testId="9df72c5d-aa12-c7d3-eeb4-8eaf675cdb96" testName="QuotesApi.Tests.Integration.RefreshTokenTests.Refresh_WithValidRefreshToken_ReturnsNewTokens" computerName="VISHESH" duration="00:00:00.9170556" startTime="2026-08-13T12:13:32.3143284+05:30" endTime="2026-08-13T12:13:37.5687935+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4aff532-66ac-4c33-9cb8-17a7f1351036" />
+    <UnitTestResult executionId="b12f432d-b597-4989-a2be-9e96db5c0985" testId="c0d3f51c-68be-3a10-0eea-9e5e5ff7fd24" testName="QuotesApi.Tests.Integration.AuthenticationTests.Logout_WithUnknownRefreshToken_ReturnsNoContent" computerName="VISHESH" duration="00:00:00.0606588" startTime="2026-08-13T12:13:55.7697618+05:30" endTime="2026-08-13T12:13:58.2613583+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b12f432d-b597-4989-a2be-9e96db5c0985" />
+    <UnitTestResult executionId="f5aa4852-c6cf-47fd-9de1-a0f2b78fe6be" testId="033821b5-67bf-7b1e-e3f0-f15666c0e870" testName="QuotesApi.Tests.Integration.QuoteWriteTests.PostQuote_WithAuthentication_CreatesQuote" computerName="VISHESH" duration="00:00:00.0879011" startTime="2026-08-13T12:13:32.8625370+05:30" endTime="2026-08-13T12:13:37.3067816+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5aa4852-c6cf-47fd-9de1-a0f2b78fe6be" />
+    <UnitTestResult executionId="8e2d6af2-40c7-4243-ae35-dba06971cb67" testId="57a468fe-96b9-39a4-05e0-748868bd9016" testName="QuotesApi.Tests.Integration.AuthenticationTests.Login_WithUnknownUser_ReturnsUnauthorized" computerName="VISHESH" duration="00:00:00.0359458" startTime="2026-08-13T12:13:58.2619055+05:30" endTime="2026-08-13T12:14:00.3478020+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e2d6af2-40c7-4243-ae35-dba06971cb67" />
+    <UnitTestResult executionId="c6f992d3-4a9d-4384-a842-3ab74db74b47" testId="499cf08f-9e49-faca-285b-fedc964f04fa" testName="QuotesApi.Tests.Integration.QuoteWriteTests.UpdateAuthor_WithAuthorOver200Characters_ReturnsBadRequest" computerName="VISHESH" duration="00:00:00.2592990" startTime="2026-08-13T12:14:01.7682744+05:30" endTime="2026-08-13T12:14:04.1005203+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6f992d3-4a9d-4384-a842-3ab74db74b47" />
+    <UnitTestResult executionId="bff9c49f-ae89-4059-9719-4105f070c5bc" testId="1aa050ed-9255-145b-e900-39ab8df8d933" testName="QuotesApi.Tests.Integration.QuoteDomainTests.Delete_SetsIsDeletedToTrue" computerName="VISHESH" duration="00:00:00.0007846" startTime="2026-08-13T12:11:21.2999850+05:30" endTime="2026-08-13T12:11:21.3001676+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bff9c49f-ae89-4059-9719-4105f070c5bc" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithEmptyAuthor_ReturnsFailure" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="f1d51a38-d0ff-230c-a944-11bcdbe22eaf">
+      <Execution id="7f96647d-336d-4a66-8ab1-11c386b25b4e" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="Create_WithEmptyAuthor_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteWriteTests.PostQuote_WithAuthorOver200Characters_ReturnsBadRequest" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="ed90307f-7eb8-0249-ca38-6efb92198c3c">
+      <Execution id="15a9b871-7cf7-44b4-a182-2cc2fe918799" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteWriteTests" name="PostQuote_WithAuthorOver200Characters_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.AuthenticationTests.Login_WithUnknownUser_ReturnsUnauthorized" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="57a468fe-96b9-39a4-05e0-748868bd9016">
+      <Execution id="8e2d6af2-40c7-4243-ae35-dba06971cb67" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.AuthenticationTests" name="Login_WithUnknownUser_ReturnsUnauthorized" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDeleteTests.DeleteQuote_WhenQuoteDoesNotExist_ReturnsNotFound" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="849a81bc-24ee-550a-421a-5647f9928d11">
+      <Execution id="9dac51fa-f75d-4a2a-bce6-de5d1d01ba0a" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDeleteTests" name="DeleteQuote_WhenQuoteDoesNotExist_ReturnsNotFound" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteWriteTests.PostQuote_WithoutAuth_ReturnsUnauthorized" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="676f250c-70a1-1518-fc10-8f3f71c551cc">
+      <Execution id="05588f9a-0b6d-4544-af9f-b745954a3391" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteWriteTests" name="PostQuote_WithoutAuth_ReturnsUnauthorized" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.AuthenticationTests.Logout_WithValidRefreshToken_ReturnsNoContent" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="c8bee1f7-f901-98e5-9006-5e897f03e38a">
+      <Execution id="ac775196-9760-41cb-bff2-5399a1caf4e3" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.AuthenticationTests" name="Logout_WithValidRefreshToken_ReturnsNoContent" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteWriteTests.PostQuote_WithEmptyText_ReturnsBadRequest" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="124f64d3-ca50-5dd3-a0af-38fab6762362">
+      <Execution id="121e830d-7925-4b1f-b358-170de88c7f6b" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteWriteTests" name="PostQuote_WithEmptyText_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDeleteTests.DeleteQuote_WhenUserIsNotOwner_ReturnsForbidden" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="b8dcba16-6981-751f-3a01-68e0e83dcbc5">
+      <Execution id="0a5dbe4f-4b8b-482b-8424-14c874064bb2" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDeleteTests" name="DeleteQuote_WhenUserIsNotOwner_ReturnsForbidden" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.AuthenticationTests.Logout_WithUnknownRefreshToken_ReturnsNoContent" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="c0d3f51c-68be-3a10-0eea-9e5e5ff7fd24">
+      <Execution id="b12f432d-b597-4989-a2be-9e96db5c0985" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.AuthenticationTests" name="Logout_WithUnknownRefreshToken_ReturnsNoContent" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.RefreshTokenTests.Refresh_WithReusedRefreshToken_ReturnsUnauthorized" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="511fda1f-4d89-8152-5d17-ed5149055ffa">
+      <Execution id="d1848956-56de-4e89-b9ae-d0f98bda2fc6" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.RefreshTokenTests" name="Refresh_WithReusedRefreshToken_ReturnsUnauthorized" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.AuthenticationTests.Login_WithInvalidPassword_ReturnsUnauthorized" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="e4c4c5ba-06d7-880a-e2f4-5b9dc761c2a5">
+      <Execution id="5449d839-8931-4248-b438-6316d6e9d3f0" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.AuthenticationTests" name="Login_WithInvalidPassword_ReturnsUnauthorized" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteWriteTests.PostQuote_WithEmptyAuthor_ReturnsBadRequest" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="3aad1383-6cad-44a4-b288-444b5472ea15">
+      <Execution id="9766f373-eccb-4433-aa69-8b3319c34c9a" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteWriteTests" name="PostQuote_WithEmptyAuthor_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteReadTests.GetQuotes_WhenQuotesExist_ReturnsQuotes" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="d8976056-884e-a37e-d482-3ae153f8d308">
+      <Execution id="dfcf6cfd-0e92-4ae2-8d55-20c5847feff8" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteReadTests" name="GetQuotes_WhenQuotesExist_ReturnsQuotes" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.RefreshTokenTests.Refresh_WithUnknownRefreshToken_ReturnsUnauthorized" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="45f42d1d-bd88-7d46-c4bf-c6311d39d2e3">
+      <Execution id="05f0a407-e581-4f74-8a22-9a6877bf43b1" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.RefreshTokenTests" name="Refresh_WithUnknownRefreshToken_ReturnsUnauthorized" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteReadTests.GetQuoteById_WhenQuoteDoesNotExist_ReturnsNotFound" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="8db0a31f-37f6-816d-8d19-186dff27279f">
+      <Execution id="df52e0ae-6a36-4b53-b066-ae9dc2f8dbe5" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteReadTests" name="GetQuoteById_WhenQuoteDoesNotExist_ReturnsNotFound" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteWriteTests.UpdateAuthor_WhenQuoteDoesNotExist_ReturnsNotFound" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="1227f698-7d95-ee80-b530-ff979278b014">
+      <Execution id="6af8fae3-e35a-4391-82f1-75aa99438838" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteWriteTests" name="UpdateAuthor_WhenQuoteDoesNotExist_ReturnsNotFound" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteReadTests.GetQuotes_WhenCalled_ReturnsOkAndEmptyList" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="181277c3-dffb-81ab-7b3f-ae3a8a8bfc29">
+      <Execution id="2bd8a12f-0594-4235-a082-1b596acaa608" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteReadTests" name="GetQuotes_WhenCalled_ReturnsOkAndEmptyList" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.AuthenticationTests.Logout_WithoutAuthentication_ReturnsUnauthorized" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="bab88c4a-d09e-0e75-351b-c75b735fbfc8">
+      <Execution id="b71e2c24-3660-4aca-987e-1afc040d4871" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.AuthenticationTests" name="Logout_WithoutAuthentication_ReturnsUnauthorized" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithEmptyText_ReturnsFailure" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="e52be598-6545-b6d3-806f-a51ab9fdca94">
+      <Execution id="78445e94-1f83-4970-9157-428f60f5b699" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="Create_WithEmptyText_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.ChangeAuthor_WhenQuoteIsDeleted_ReturnsFailure" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="23fc89a3-6de9-e209-3169-14ccd4b76265">
+      <Execution id="121709f8-70e0-4bec-a4a9-9d5273a40e40" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="ChangeAuthor_WhenQuoteIsDeleted_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDeleteTests.DeleteQuote_WithoutUserIdClaim_ReturnsForbidden" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="a4286b7a-731a-2a25-ecb4-da28b07e60be">
+      <Execution id="a8614759-bb59-4e7d-866a-b5b46b3769c0" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDeleteTests" name="DeleteQuote_WithoutUserIdClaim_ReturnsForbidden" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithTextOver1000Characters_ReturnsFailure" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="c71a4ba6-8fd7-122a-afaf-f2d1f8b255c7">
+      <Execution id="3e8f6cf6-a237-4d2f-80a5-8d32ba66a0e1" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="Create_WithTextOver1000Characters_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.ChangeAuthor_WithWhitespaceAuthor_ReturnsFailure" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="a76fff7c-3b65-0190-d68d-ca4d4e292280">
+      <Execution id="328fc67e-8cab-4199-a74e-31c16c417297" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="ChangeAuthor_WithWhitespaceAuthor_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteWriteTests.UpdateAuthor_WithEmptyAuthor_ReturnsBadRequest" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="ef4bd6f8-a7d9-b681-abf3-6d06b38d7820">
+      <Execution id="2cd48c5e-a735-472f-bf57-fb1531489273" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteWriteTests" name="UpdateAuthor_WithEmptyAuthor_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.RefreshTokenTests.Refresh_WithValidRefreshToken_ReturnsNewTokens" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="9df72c5d-aa12-c7d3-eeb4-8eaf675cdb96">
+      <Execution id="c4aff532-66ac-4c33-9cb8-17a7f1351036" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.RefreshTokenTests" name="Refresh_WithValidRefreshToken_ReturnsNewTokens" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteWriteTests.PostQuote_WithTextOver1000Characters_ReturnsBadRequest" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="842dd747-ea8e-a40b-56bd-597c1bade384">
+      <Execution id="247a27bd-8f82-49e7-ab59-7139507198d3" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteWriteTests" name="PostQuote_WithTextOver1000Characters_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.ChangeAuthor_WithValidAuthor_ReturnsSuccess" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="4b912c46-e5f3-2542-e154-9a6e7357fccc">
+      <Execution id="27237922-b86a-407f-a54b-2a19e7638e52" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="ChangeAuthor_WithValidAuthor_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.Delete_SetsIsDeletedToTrue" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="1aa050ed-9255-145b-e900-39ab8df8d933">
+      <Execution id="bff9c49f-ae89-4059-9719-4105f070c5bc" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="Delete_SetsIsDeletedToTrue" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.AuthenticationTests.Login_WithValidCredentials_ReturnsTokens" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="a28dc243-8cbe-6860-5a84-5dc59ce3ab38">
+      <Execution id="bd50fc30-b025-4d72-a8d5-712f45c658fe" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.AuthenticationTests" name="Login_WithValidCredentials_ReturnsTokens" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteWriteTests.UpdateAuthor_WithAuthorOver200Characters_ReturnsBadRequest" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="499cf08f-9e49-faca-285b-fedc964f04fa">
+      <Execution id="c6f992d3-4a9d-4384-a842-3ab74db74b47" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteWriteTests" name="UpdateAuthor_WithAuthorOver200Characters_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteWriteTests.UpdateAuthor_WhenQuoteExists_ReturnsNoContent" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="0f824763-b4df-678a-f128-6eef7b5d7461">
+      <Execution id="c9646c96-02f6-4179-9ec9-54a1d8ceb6d2" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteWriteTests" name="UpdateAuthor_WhenQuoteExists_ReturnsNoContent" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.ChangeAuthor_WithEmptyAuthor_ReturnsFailure" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="287d6ecd-4c37-0385-0424-bfd9e6462d0c">
+      <Execution id="f71a1d6e-cde9-491d-8e7a-f7f6bc27b9c8" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="ChangeAuthor_WithEmptyAuthor_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithWhitespaceText_ReturnsFailure" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="44b0cb0b-447a-f7b8-867e-7e4f9b060c1a">
+      <Execution id="2ab8f13d-41c2-451d-a2ae-f2e009b7a761" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="Create_WithWhitespaceText_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteWriteTests.PostQuote_WithAuthentication_CreatesQuote" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="033821b5-67bf-7b1e-e3f0-f15666c0e870">
+      <Execution id="f5aa4852-c6cf-47fd-9de1-a0f2b78fe6be" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteWriteTests" name="PostQuote_WithAuthentication_CreatesQuote" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteReadTests.GetQuoteById_WhenQuoteExists_ReturnsOk" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="bdd72aef-d779-edd5-8cc7-c10deb771f67">
+      <Execution id="efa41d6f-cc77-436c-a657-bc119aac0d60" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteReadTests" name="GetQuoteById_WhenQuoteExists_ReturnsOk" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithWhitespaceAuthor_ReturnsFailure" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="bb763136-2097-11ba-25c0-a857a9b15177">
+      <Execution id="5c3b59c5-15b8-49a4-a041-2378c5bd4606" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="Create_WithWhitespaceAuthor_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithValidData_ReturnsSuccess" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="b93e9971-1e68-2a74-2037-6e9478a9fad5">
+      <Execution id="2a71e29a-9981-4d25-9cf7-d6feeba2e293" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="Create_WithValidData_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.ChangeAuthor_WithAuthorOver200Characters_ReturnsFailure" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="14a84147-7347-6142-38a1-f127131030ab">
+      <Execution id="c650c31f-f556-4f43-b02a-aa890a955d7f" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="ChangeAuthor_WithAuthorOver200Characters_ReturnsFailure" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDeleteTests.DeleteQuote_WhenUserIsOwner_ReturnsNoContent" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="116ebff7-c7ee-c34c-b29c-8fbafc8f05b2">
+      <Execution id="5d4bf0a0-7a80-4e5a-8327-28efc8c92907" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDeleteTests" name="DeleteQuote_WhenUserIsOwner_ReturnsNoContent" />
+    </UnitTest>
+    <UnitTest name="QuotesApi.Tests.Integration.QuoteDomainTests.Create_WithAuthorOver200Characters_ReturnsFailure" storage="c:\users\vishe\desktop\thinkschool\day-4\piece1\quotesapi.tests.integration\bin\debug\net10.0\quotesapi.tests.integration.dll" id="6e16bad8-1967-e63b-a870-93fd7d5fbeeb">
+      <Execution id="66d465f5-9ce4-4656-ae50-8118894983de" />
+      <TestMethod codeBase="C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi.Tests.Integration\bin\Debug\net10.0\QuotesApi.Tests.Integration.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuotesApi.Tests.Integration.QuoteDomainTests" name="Create_WithAuthorOver200Characters_ReturnsFailure" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a76fff7c-3b65-0190-d68d-ca4d4e292280" executionId="328fc67e-8cab-4199-a74e-31c16c417297" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="849a81bc-24ee-550a-421a-5647f9928d11" executionId="9dac51fa-f75d-4a2a-bce6-de5d1d01ba0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44b0cb0b-447a-f7b8-867e-7e4f9b060c1a" executionId="2ab8f13d-41c2-451d-a2ae-f2e009b7a761" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8976056-884e-a37e-d482-3ae153f8d308" executionId="dfcf6cfd-0e92-4ae2-8d55-20c5847feff8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1d51a38-d0ff-230c-a944-11bcdbe22eaf" executionId="7f96647d-336d-4a66-8ab1-11c386b25b4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c71a4ba6-8fd7-122a-afaf-f2d1f8b255c7" executionId="3e8f6cf6-a237-4d2f-80a5-8d32ba66a0e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="842dd747-ea8e-a40b-56bd-597c1bade384" executionId="247a27bd-8f82-49e7-ab59-7139507198d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="511fda1f-4d89-8152-5d17-ed5149055ffa" executionId="d1848956-56de-4e89-b9ae-d0f98bda2fc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="124f64d3-ca50-5dd3-a0af-38fab6762362" executionId="121e830d-7925-4b1f-b358-170de88c7f6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb763136-2097-11ba-25c0-a857a9b15177" executionId="5c3b59c5-15b8-49a4-a041-2378c5bd4606" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef4bd6f8-a7d9-b681-abf3-6d06b38d7820" executionId="2cd48c5e-a735-472f-bf57-fb1531489273" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45f42d1d-bd88-7d46-c4bf-c6311d39d2e3" executionId="05f0a407-e581-4f74-8a22-9a6877bf43b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8dcba16-6981-751f-3a01-68e0e83dcbc5" executionId="0a5dbe4f-4b8b-482b-8424-14c874064bb2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e16bad8-1967-e63b-a870-93fd7d5fbeeb" executionId="66d465f5-9ce4-4656-ae50-8118894983de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1227f698-7d95-ee80-b530-ff979278b014" executionId="6af8fae3-e35a-4391-82f1-75aa99438838" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e52be598-6545-b6d3-806f-a51ab9fdca94" executionId="78445e94-1f83-4970-9157-428f60f5b699" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4286b7a-731a-2a25-ecb4-da28b07e60be" executionId="a8614759-bb59-4e7d-866a-b5b46b3769c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="181277c3-dffb-81ab-7b3f-ae3a8a8bfc29" executionId="2bd8a12f-0594-4235-a082-1b596acaa608" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f824763-b4df-678a-f128-6eef7b5d7461" executionId="c9646c96-02f6-4179-9ec9-54a1d8ceb6d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b912c46-e5f3-2542-e154-9a6e7357fccc" executionId="27237922-b86a-407f-a54b-2a19e7638e52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8db0a31f-37f6-816d-8d19-186dff27279f" executionId="df52e0ae-6a36-4b53-b066-ae9dc2f8dbe5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a28dc243-8cbe-6860-5a84-5dc59ce3ab38" executionId="bd50fc30-b025-4d72-a8d5-712f45c658fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14a84147-7347-6142-38a1-f127131030ab" executionId="c650c31f-f556-4f43-b02a-aa890a955d7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b93e9971-1e68-2a74-2037-6e9478a9fad5" executionId="2a71e29a-9981-4d25-9cf7-d6feeba2e293" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="676f250c-70a1-1518-fc10-8f3f71c551cc" executionId="05588f9a-0b6d-4544-af9f-b745954a3391" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="287d6ecd-4c37-0385-0424-bfd9e6462d0c" executionId="f71a1d6e-cde9-491d-8e7a-f7f6bc27b9c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bdd72aef-d779-edd5-8cc7-c10deb771f67" executionId="efa41d6f-cc77-436c-a657-bc119aac0d60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bab88c4a-d09e-0e75-351b-c75b735fbfc8" executionId="b71e2c24-3660-4aca-987e-1afc040d4871" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8bee1f7-f901-98e5-9006-5e897f03e38a" executionId="ac775196-9760-41cb-bff2-5399a1caf4e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3aad1383-6cad-44a4-b288-444b5472ea15" executionId="9766f373-eccb-4433-aa69-8b3319c34c9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed90307f-7eb8-0249-ca38-6efb92198c3c" executionId="15a9b871-7cf7-44b4-a182-2cc2fe918799" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23fc89a3-6de9-e209-3169-14ccd4b76265" executionId="121709f8-70e0-4bec-a4a9-9d5273a40e40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4c4c5ba-06d7-880a-e2f4-5b9dc761c2a5" executionId="5449d839-8931-4248-b438-6316d6e9d3f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="116ebff7-c7ee-c34c-b29c-8fbafc8f05b2" executionId="5d4bf0a0-7a80-4e5a-8327-28efc8c92907" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9df72c5d-aa12-c7d3-eeb4-8eaf675cdb96" executionId="c4aff532-66ac-4c33-9cb8-17a7f1351036" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0d3f51c-68be-3a10-0eea-9e5e5ff7fd24" executionId="b12f432d-b597-4989-a2be-9e96db5c0985" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="033821b5-67bf-7b1e-e3f0-f15666c0e870" executionId="f5aa4852-c6cf-47fd-9de1-a0f2b78fe6be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57a468fe-96b9-39a4-05e0-748868bd9016" executionId="8e2d6af2-40c7-4243-ae35-dba06971cb67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="499cf08f-9e49-faca-285b-fedc964f04fa" executionId="c6f992d3-4a9d-4384-a842-3ab74db74b47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1aa050ed-9255-145b-e900-39ab8df8d933" executionId="bff9c49f-ae89-4059-9719-4105f070c5bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="40" executed="40" passed="40" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.10)&#xD;
+[xUnit.net 00:00:01.15]   Discovering: QuotesApi.Tests.Integration&#xD;
+[xUnit.net 00:00:01.28]   Discovered:  QuotesApi.Tests.Integration&#xD;
+[xUnit.net 00:00:01.36]   Starting:    QuotesApi.Tests.Integration&#xD;
+     Warning:&#xD;
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and&#xD;
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for&#xD;
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.&#xD;
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.&#xD;
+     A paid commercial license supports the development and continued increasing support of&#xD;
+     Fluent Assertions users under both commercial and community licenses. Help us&#xD;
+     keep Fluent Assertions at the forefront of unit testing.&#xD;
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/&#xD;
+[testcontainers.org 00:00:00.69] Connected to Docker:&#xD;
+  Host: npipe://./pipe/docker_engine&#xD;
+  Server Version: 29.7.2&#xD;
+  Kernel Version: 6.6.87.2-microsoft-standard-WSL2&#xD;
+  API Version: 1.55&#xD;
+  Operating System: Docker Desktop&#xD;
+  Total Memory: 3.51 GB&#xD;
+  Labels: &#xD;
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli&#xD;
+[testcontainers.org 00:00:01.68] Docker container 6b11707a615a created&#xD;
+[testcontainers.org 00:00:02.07] Start Docker container 6b11707a615a&#xD;
+[testcontainers.org 00:00:03.35] Wait for Docker container 6b11707a615a to complete readiness checks&#xD;
+[testcontainers.org 00:00:04.48] Docker container 6b11707a615a ready&#xD;
+[testcontainers.org 00:00:04.92] Docker container 23773671c4a7 created&#xD;
+[testcontainers.org 00:00:04.99] Docker container 39d94f15407b created&#xD;
+[testcontainers.org 00:00:04.99] Start Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:00:05.00] Docker container c68390bf822c created&#xD;
+[testcontainers.org 00:00:05.04] Docker container 2837ca126d91 created&#xD;
+[testcontainers.org 00:00:05.07] Docker container 96a33c3a5820 created&#xD;
+[testcontainers.org 00:00:05.07] Start Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:00:05.08] Start Docker container c68390bf822c&#xD;
+[testcontainers.org 00:00:05.11] Start Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:00:05.15] Start Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:00:05.96] Wait for Docker container 39d94f15407b to complete readiness checks&#xD;
+[testcontainers.org 00:00:06.04] Execute "/bin/sh -c find /opt/mssql-tools*/bin/sqlcmd -type f -print -quit" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:00:06.07] Wait for Docker container 2837ca126d91 to complete readiness checks&#xD;
+[testcontainers.org 00:00:06.11] Execute "/bin/sh -c find /opt/mssql-tools*/bin/sqlcmd -type f -print -quit" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:00:06.21] Wait for Docker container 23773671c4a7 to complete readiness checks&#xD;
+[testcontainers.org 00:00:06.29] Execute "/bin/sh -c find /opt/mssql-tools*/bin/sqlcmd -type f -print -quit" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:00:06.34] Wait for Docker container c68390bf822c to complete readiness checks&#xD;
+[testcontainers.org 00:00:06.44] Execute "/bin/sh -c find /opt/mssql-tools*/bin/sqlcmd -type f -print -quit" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:00:06.50] Wait for Docker container 96a33c3a5820 to complete readiness checks&#xD;
+[testcontainers.org 00:00:06.57] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:00:06.57] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:00:06.58] Execute "/bin/sh -c find /opt/mssql-tools*/bin/sqlcmd -type f -print -quit" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:00:06.70] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:00:06.89] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:00:06.98] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:00:16.07] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:00:16.07] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:00:16.11] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:00:16.24] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:00:16.26] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:00:25.42] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:00:25.44] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:00:25.44] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:00:25.60] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:00:25.61] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:00:35.20] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:00:35.23] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:00:35.24] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:00:35.26] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:00:35.27] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:00:45.33] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:00:45.36] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:00:45.38] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:00:45.42] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:00:45.44] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:00:55.85] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:00:55.86] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:00:55.87] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:00:55.88] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:00:55.97] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:01:06.22] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:01:06.22] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:01:06.23] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:01:06.30] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:01:06.30] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:01:16.53] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:01:16.53] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:01:16.62] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:01:16.62] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:01:16.67] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:01:26.61] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:01:26.63] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:01:26.64] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:01:26.67] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:01:26.69] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:01:30.11] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:01:30.27] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:01:30.34] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:01:31.89] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:01:31.90] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:01:31.96] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:01:33.16] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:01:33.68] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:01:33.68] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:01:33.74] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:01:34.35] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:01:34.75] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:01:35.32] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:01:35.41] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:01:35.41] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:01:35.80] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:01:36.20] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:01:36.90] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:01:36.99] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:01:36.99] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:01:37.34] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:01:37.78] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:01:38.50] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:01:38.57] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:01:38.60] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:01:39.13] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:01:40.05] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container c68390bf822c&#xD;
+[testcontainers.org 00:01:40.38] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 39d94f15407b&#xD;
+[testcontainers.org 00:01:40.66] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 2837ca126d91&#xD;
+[testcontainers.org 00:01:40.78] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:01:40.99] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:01:42.24] Docker container 39d94f15407b ready&#xD;
+[testcontainers.org 00:01:42.27] Docker container c68390bf822c ready&#xD;
+[testcontainers.org 00:01:42.37] Docker container 2837ca126d91 ready&#xD;
+[testcontainers.org 00:01:42.78] Docker container 23773671c4a7 ready&#xD;
+[testcontainers.org 00:01:44.03] Execute "/opt/mssql-tools18/bin/sqlcmd -C -Q SELECT 1;" at Docker container 96a33c3a5820&#xD;
+[testcontainers.org 00:01:45.53] Docker container 96a33c3a5820 ready&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\vishe\Desktop\thinkschool\Day-4\piece1\QuotesApi&#xD;
+warn: Program[0]&#xD;
+      SECURITY ALERT: Attempted reuse of revoked refresh token. Revoking token family 13b92e65-6077-4732-9b28-2bea194c50a5.&#xD;
+[testcontainers.org 00:02:31.03] Delete Docker container c68390bf822c&#xD;
+[testcontainers.org 00:02:33.71] Delete Docker container 23773671c4a7&#xD;
+[testcontainers.org 00:02:33.95] Delete Docker container 39d94f15407b&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+[testcontainers.org 00:02:38.89] Delete Docker container 2837ca126d91&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+[testcontainers.org 00:02:46.90] Delete Docker container 96a33c3a5820&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+[xUnit.net 00:02:49.86]   Finished:    QuotesApi.Tests.Integration&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="VISHESH" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="VISHESH\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>
