@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cdh62HI1EgQ=",
+  "dgSpecHash": "6J+jHAiVdLk=",
   "success": true,
-  "projectFilePath": "D:\\Day5\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
+  "projectFilePath": "C:\\Users\\vishe\\Desktop\\ThinkBridge\\new-folder\\Day-5\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vishe\\.nuget\\packages\\azure.core\\1.60.0\\azure.core.1.60.0.nupkg.sha512",
     "C:\\Users\\vishe\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
@@ -130,9 +130,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'SSH.NET' 2025.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-q939-rpr3-3284",
-      "projectPath": "D:\\Day5\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
+      "projectPath": "C:\\Users\\vishe\\Desktop\\ThinkBridge\\new-folder\\Day-5\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Day5\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
+      "filePath": "C:\\Users\\vishe\\Desktop\\ThinkBridge\\new-folder\\Day-5\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
       "libraryId": "SSH.NET",
       "targetGraphs": [
         "net10.0"

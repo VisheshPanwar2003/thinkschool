@@ -18,13 +18,7 @@ public static class QuoteEndpointExtensions
         var group = app.MapGroup("/api/quotes");
 
         group.MapGet("/", async (IQuoteRepository repo, CancellationToken ct) =>
-        {
-            // THE SABOTAGE: Simulate a blocked thread or slow downstream service
-            await Task.Delay(1500, ct);
-            
-            var quotes = await repo.GetAllAsync(ct);
-            return Results.Ok(quotes);
-        });
+            Results.Ok(await repo.GetAllAsync(ct)));
 
         group.MapGet("/{id:int}", async (int id, IQuoteRepository repo, CancellationToken ct) =>
             await repo.GetByIdAsync(id, ct) is Quote quote ? Results.Ok(quote) : Results.NotFound());

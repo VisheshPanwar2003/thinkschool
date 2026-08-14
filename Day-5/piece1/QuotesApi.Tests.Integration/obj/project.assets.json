@@ -5808,11 +5808,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Day5\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
+      "projectUniqueName": "C:\\Users\\vishe\\Desktop\\ThinkBridge\\new-folder\\Day-5\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
       "projectName": "QuotesApi.Tests.Integration",
-      "projectPath": "D:\\Day5\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
+      "projectPath": "C:\\Users\\vishe\\Desktop\\ThinkBridge\\new-folder\\Day-5\\piece1\\QuotesApi.Tests.Integration\\QuotesApi.Tests.Integration.csproj",
       "packagesPath": "C:\\Users\\vishe\\.nuget\\packages\\",
-      "outputPath": "D:\\Day5\\piece1\\QuotesApi.Tests.Integration\\obj\\",
+      "outputPath": "C:\\Users\\vishe\\Desktop\\ThinkBridge\\new-folder\\Day-5\\piece1\\QuotesApi.Tests.Integration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vishe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5828,8 +5828,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\Day5\\piece1\\QuotesApi\\QuotesApi.csproj": {
-              "projectPath": "D:\\Day5\\piece1\\QuotesApi\\QuotesApi.csproj"
+            "C:\\Users\\vishe\\Desktop\\ThinkBridge\\new-folder\\Day-5\\piece1\\QuotesApi\\QuotesApi.csproj": {
+              "projectPath": "C:\\Users\\vishe\\Desktop\\ThinkBridge\\new-folder\\Day-5\\piece1\\QuotesApi\\QuotesApi.csproj"
             }
           }
         }
